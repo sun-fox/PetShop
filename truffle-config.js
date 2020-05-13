@@ -14,7 +14,7 @@ module.exports = {
     },
     rinkeby:{
       provider:()=>new HDwalletProvider(process.env.MNEMONIC,"https://mainnet.infura.io/v3/"+process.env.INFURA_API_KEY),
-      network_id: 4
+      network_id: 1
     }
   }
 };
